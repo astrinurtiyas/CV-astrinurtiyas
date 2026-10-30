@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="-90px 0px -50%" tabindex="0">
 
   <!-- ================= NAVBAR ================= -->
   <nav id="mainNav" class="navbar navbar-expand-lg sticky-top pixel-nav">
@@ -40,6 +40,7 @@
           <li class="nav-item"><a class="nav-link" href="#pendidikan">Pendidikan</a></li>
           <li class="nav-item"><a class="nav-link" href="#kemampuan">Kemampuan</a></li>
           <li class="nav-item"><a class="nav-link" href="#pengalaman">Pengalaman</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portofolio">Portofolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
         </ul>
       </div>
@@ -128,11 +129,9 @@
           <!-- Foto tengah dengan tulisan profesi -->
           <div class="col-lg-6 order-1 order-lg-2">
             <div class="portrait">
-              <!-- GANTI DI SINI: profesi besar di belakang foto -->
               <p class="role-big" aria-hidden="true">WEB DEVELOPER</p>
               <img src="assets/astri.jfif" alt="Foto Astri Nur Tiya Santoso" class="portrait-photo" width="231"
                 height="308">
-              <!-- GANTI DI SINI: tulisan script di depan foto -->
               <p class="role-script">UI/UX Designer</p>
             </div>
           </div>
@@ -140,7 +139,6 @@
           <!-- Kontak kanan -->
           <div class="col-lg-3 order-3 d-flex flex-column align-items-lg-end gap-3">
             <ul class="social-list list-unstyled d-flex gap-2 mb-0">
-              <!-- GANTI DI SINI: link sosial media -->
               <li><a href="https://github.com/astrinurtiyas" class="social-btn" aria-label="GitHub Astri"
                   target="_blank" rel="noopener"><i class="bi bi-github"></i></a></li>
               <li><a href="mailto:astrintys0903@gmail.com" class="social-btn" aria-label="Kirim email"><i
@@ -149,7 +147,6 @@
                     class="bi bi-telephone-fill"></i></a></li>
             </ul>
             <p class="intro-handle mb-0">github.com/astrinurtiyas</p>
-            <p class="intro-handle mb-0">@asctys.99</p>
           </div>
 
         </div>
@@ -182,7 +179,7 @@
                       ICT</span></li>
                   <li class="stat"><span class="stat-num">4</span><span class="stat-label">Bahasa &amp; stack
                       inti</span></li>
-                  <li class="stat"><span class="stat-num">1</span><span class="stat-label">Proyek web catering</span>
+                  <li class="stat"><span class="stat-num">2</span><span class="stat-label">Proyek web</span>
                   </li>
                 </ul>
 
@@ -212,7 +209,7 @@
       </div>
     </section>
 
-    <!-- ================= PENDIDIKAN ================= -->
+    <!-- ================= PENDIDIKAN (ringkas) ================= -->
     <section id="pendidikan" class="education" aria-labelledby="judul-pendidikan">
       <div class="container-xl">
         <div class="text-center">
@@ -230,8 +227,7 @@
               </div>
               <div class="edu-body">
                 <h3>Universitas Budi Luhur</h3>
-                <p class="mb-2">S1 - Sistem Informasi</p>
-                <span class="edu-badge">Sedang berjalan</span>
+                <p class="mb-0">S1 - Sistem Informasi</p>
               </div>
             </article>
             <img src="assets/apple.svg" alt="" class="timeline-apple pixel-img">
@@ -245,14 +241,7 @@
               </div>
               <div class="edu-body">
                 <h3>SMA Negeri 32 Jakarta</h3>
-                <p class="mb-0">Kurikulum Merdeka</p>
-                <p class="mb-1 fw-bold">Perminatan:</p>
-                <ul class="mb-0 ps-3">
-                  <li>Informatika</li>
-                  <li>Bahasa Inggris Tingkat Lanjut</li>
-                  <li>Bahasa Jerman</li>
-                  <li>Sosiologi</li>
-                </ul>
+                <p class="mb-0">Peminatan: Informatika, Bahasa Inggris Lanjut, Bahasa Jerman, Sosiologi</p>
               </div>
             </article>
             <img src="assets/apple.svg" alt="" class="timeline-apple pixel-img">
@@ -766,9 +755,6 @@
 
           <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
 
-            <!-- GANTI DI SINI: ganti <div class="work-ph">...</div> dengan
-                 <img src="assets/NAMA-FILE-KAMU.jpg" alt="Deskripsi karya" loading="lazy">
-                 lalu ubah juga judul dan deskripsinya -->
             <div class="col">
               <article class="work-card lift">
                 <div class="edu-bar">
@@ -776,11 +762,11 @@
                   <span class="edu-years">DESAIN</span>
                 </div>
                 <div class="work-screen work-screen-poster">
-                  <div class="work-ph"><i class="bi bi-palette-fill"></i></div>
+                  <img src="assets/desain1.png" alt="Poster Event Worthit #13" loading="lazy">
                 </div>
                 <div class="work-caption">
-                  <h4>Judul Karya 1</h4>
-                  <p>Deskripsi singkat karya desain.</p>
+                  <h4>Poster Event Worthit #13</h4>
+                  <p>Desain poster promosi workshop teknologi bertema Python, Algorithm, dan Linux dengan tata letak visual yang informatif dan komunikatif.</p>
                 </div>
               </article>
             </div>
@@ -792,11 +778,11 @@
                   <span class="edu-years">DESAIN</span>
                 </div>
                 <div class="work-screen work-screen-poster">
-                  <div class="work-ph"><i class="bi bi-vector-pen"></i></div>
+                  <img src="assets/desain2.png" alt="Poster Informasi Lab ICT" loading="lazy">
                 </div>
                 <div class="work-caption">
-                  <h4>Judul Karya 2</h4>
-                  <p>Deskripsi singkat karya desain.</p>
+                  <h4>Poster Informasi Lab ICT</h4>
+                  <p>Desain pengumuman pergantian ruang praktikum</p>
                 </div>
               </article>
             </div>
@@ -808,11 +794,11 @@
                   <span class="edu-years">DESAIN</span>
                 </div>
                 <div class="work-screen work-screen-poster">
-                  <div class="work-ph"><i class="bi bi-brush-fill"></i></div>
+                  <img src="assets/desain3.jfif" alt="UI/UX Website Catering RASACI" loading="lazy">
                 </div>
                 <div class="work-caption">
-                  <h4>Judul Karya 3</h4>
-                  <p>Deskripsi singkat karya desain.</p>
+                  <h4>UI/UX Website Catering RASACI</h4>
+                  <p>Desain antarmuka pengguna dan pengalaman pengguna untuk website catering RASACI.</p>
                 </div>
               </article>
             </div>
@@ -824,11 +810,11 @@
                   <span class="edu-years">DESAIN</span>
                 </div>
                 <div class="work-screen work-screen-poster">
-                  <div class="work-ph"><i class="bi bi-image-fill"></i></div>
+                  <img src="assets/desain4.png" alt="UI/UX Shipwreck Directory" loading="lazy">
                 </div>
                 <div class="work-caption">
-                  <h4>Judul Karya 4</h4>
-                  <p>Deskripsi singkat karya desain.</p>
+                  <h4>UI/UX Shipwreck Directory</h4>
+                  <p>Redesain antarmuka direktori arsip sejarah kapal karam berkonsep oceanic dark-mode dengan struktur kartu eksplorasi yang intuitif.</p>
                 </div>
               </article>
             </div>
